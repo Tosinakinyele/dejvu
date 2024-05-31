@@ -1,0 +1,554 @@
+a{
+    text-decoration: none;
+    color: rgb(104, 92, 92);
+}
+
+
+.Home-Section {
+    background-image:linear-gradient(to bottom, rgba(5, 10, 37, 0.52), rgba(3, 3, 29, 0.73)), url(./assets/Home1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -1px;
+}
+
+.textbox {
+    text-align: center;
+    padding-top: 230px;
+}
+
+.textbox h1, p {
+    color: rgb(209, 236, 209);
+}
+
+.p-text{
+    color: rgb(209, 236, 209);
+}
+
+.login-b button {
+    width: 158px;
+    height: 46px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 60px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    color: #554f4f;
+}
+
+.login-b button:active{
+    color: #f3f3f3;
+}
+
+
+/* Courses */
+
+.Course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Course h1 {
+    font-size: 31px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.Course p {
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.rowwww {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    padding-top: 10px;
+
+}
+
+.Course-col {
+    flex-basis: 31%;
+    background: rgb(81, 252, 81);
+    border-radius: 11px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.Course-sec h1, p {
+    text-align: center;
+    color: black;
+    padding-top: 30px;
+}
+
+
+.Course-col p {
+    color:rgba(0, 0, 0, 0.493);
+}
+
+.Course-sec p {
+    color: #7a7a7a;
+}
+
+.Course-sec{
+    margin-bottom: 50px;
+}
+
+.Course-col h3 {
+    text-align: center;
+    font-weight: 300px;
+    margin: 10px;
+}
+
+.Course-col:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+
+/*Campus Facilities*/
+
+.Facilities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.roww {
+    display: flex;
+    padding-left: 54px;
+}
+
+.facilities-col img {
+    display: grid;
+    flex-direction: 1fr 1fr 1fr;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 26px;
+    margin: 15px;
+}
+
+.facilities-col p {
+    padding: 0;
+    margin-left: 22px;
+    text-align: left;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+.fal-p{
+    color: #7a7a7a;
+}
+
+.Facilities-Head{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.facilities-col h3 {
+    text-align: left;
+    margin-left: 22px;
+}
+
+
+.facilities-col {
+    transition: 1s;
+    cursor: pointer;
+    margin: 0 10px;
+    margin-bottom: 60px;
+  
+}
+
+
+/*Contact*/
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div form{
+    padding-left: -140px;
+}
+
+.contact-col div {
+    
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+span p {
+    text-align: start;
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-col svg {
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.form-con{
+    margin-left: -10px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.contact-flex {
+    display: flex;
+}
+
+.rowr {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.container{
+background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/Home1.jpg);
+height: 100vh;
+width: 100%;
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 15px;
+}
+
+.iinput-field i {
+    margin-left: 15px;
+    color: #999;
+}
+
+form p {
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a {
+    text-decoration: none;
+    color: #3c00a0;
+}
+
+.bbbtn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mssg-btnn{
+    width: 147px;
+    height: 41px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 70px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+}
+
+.mssg-btnn:active{
+    color: #f3f3f3;
+}
+
+
+/*Location*/
+
+
+.Campus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 5%;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+
+}
+
+.Campus-col img {
+    height: 80vh;
+    width: 300px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 4px;
+}
+
+.Campus-col h3{
+    color: #7a7a7a;
+}
+
+.Campus-col {
+    display: inline-block;
+    padding: 13px 18px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.global-p {
+    color: #7a7a7a;
+}
+
+.global-h1{
+    text-align: center;
+    color: black;
+}
+
+@media(max-width: 500px){
+    .login-b button {
+        width: 137px;
+        height: 40px;
+    }
+    .rowwww {
+         display: block;
+         margin-left: 17px;
+         margin-right: 17px;
+    }
+    .Course-col{
+       margin-top: 20px;
+    }
+
+    .Course-col h3 {
+        font-size: 19px;
+    }
+
+    .Course-col p {
+        font-size: 15px;
+    }
+
+    #rowwww{
+        margin-top: -20px;
+    }
+
+
+    .roww {
+        display: block;
+        padding-left: -54px;
+    }
+
+    .facilities-col{
+        margin-left: -32px;
+    }
+    
+    .facilities-col img {
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+        border-radius: 26px;
+        margin: 15px;
+    }
+
+    .fal-p{
+        font-size: 13px;
+    }
+
+    .row {
+        display: block;
+        align-items: center;
+    
+    }
+    
+    .Campus-col img {
+        height: 65vh;
+        width: 260px;
+        margin-bottom: 4px;
+
+}
+
+.Campus-col{
+   margin-left: 39px;
+}
+
+.global-p{
+font-size: 13px;
+}
+
+.textbox h1 {
+    font-size: 28px;
+}
+
+.textbox p {
+    font-size: 11px;
+    text-align: center;
+}
+
+.login-b button {
+    width: 120px;
+    height: 32px;
+    font-size: 11px;
+}
+
+
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+   padding: 7px 7px;
+}
+
+
+.contact-flex {
+    padding-left: 15px;
+}
+
+.contact-col svg {
+    height: 13px;
+    width: 13px;
+}
+
+span h5{
+    font-size: 17px;
+}
+
+span p {
+    font-size: 12px;
+}
+
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+   
+}
+
+.form-conplaceholder {
+    font-size: 13px;
+}
+
+.mssg-btnn{
+    width: 106px;
+    height: 30px;
+    font-size: 11px;
+}
+
+}
+
+@media(max-width: 700px){
+
+    
+.rowwww {
+    margin-top: 5%;
+    display: block;
+    justify-content: space-between;
+    padding: 10px 40px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.Course-col{
+    margin-top: 20px;
+ }
+
+ #rowwww{
+    margin-top: -20px;
+}
+
+.roww {
+    display: block;
+}
+
+}
+
+@media(max-width: 1024px){
+
+    .roww {
+        display: block;
+        margin-left: 130px;
+    }
+
+    .Campus-col img {
+        margin-left: 150px;
+    }
+
+    .Campus-col h3{
+        margin-left: 150px;
+    }
+}
+
+@media(max-width: 1280px){
+    .Campus-col img {
+        margin-left: 310px;
+    }
+
+    .Campus-col h3{
+        margin-left: 320px;
+    }
+
+    .roww {
+        margin-left: 290px;
+    }
+
+    .global-h1{
+        margin-left: 50px;
+    }
+
+    .global-p{
+        margin-left: 50px;
+    }
+}

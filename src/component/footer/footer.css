@@ -1,0 +1,66 @@
+.Footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 30px;
+    
+}
+
+.Footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600px;
+}
+
+.foot-p{
+    color: white;
+}
+
+.foot-p span{
+    color: lime;
+}
+
+.iconss  {
+    color: white
+    margin: 0 13px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.iconss svg {
+    margin: 17px;
+    color: white
+}
+
+.iconss svg:hover{
+  color: lime;
+}
+
+.foot-head{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foot-org{
+    margin-top: 130px;
+    background-color:rgba(0, 0, 0, 0.849)
+}
+
+
+@media(max-width: 500px){
+    .foot-p {
+        font-size: 9px;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .iconss svg {
+        height: 12px;
+        width: 12px;
+        margin: 13px;
+        color: white
+    }
+    .iconss {
+      margin-top: -8px;
+    }
+}
